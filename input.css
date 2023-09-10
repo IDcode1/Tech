@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* amazing */
+@import url('https://fonts.cdnfonts.com/css/motira?styles=23098');
+/* maria */
+@import url('https://fonts.cdnfonts.com/css/honest-maria?styles=150437');
+/* clingy */
+@import url('https://fonts.cdnfonts.com/css/clingy');
+/* arima koshi */
+@import url('https://fonts.cdnfonts.com/css/arima-koshi?styles=21821');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.focus {
+    @apply focus:outline-none focus-visible:ring-2 ring-offset-4 ring-white ring-offset-brightblue rounded-sm 
+};
+
+.courses_btn {
+    @apply p-2 hover:bg-white hover:rounded-md hover:text-brightblue focus:outline-none hover:ring hover:ring-brightblue transition-colors
+};
